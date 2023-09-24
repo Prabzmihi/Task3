@@ -7,7 +7,7 @@ cm = CourseModules()
 
 @app.route('/')
 def index():
-    return 'This API is working'
+    return 'This API is working.'
 
 @app.route('/modules',methods=['GET','POST','PUT','DELETE'])
 def modules():
